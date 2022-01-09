@@ -1994,7 +1994,7 @@ let ini_list = []
 for (let i of nomorowner1) {
 const vname = xeon.contacts[i] != undefined ? xeon.contacts[i].vname || xeon.contacts[i].notify : undefined
 ini_list.push({
-"displayName": 'Xeon',
+"displayName": 'Mokaya',
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${xeon.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
@@ -2012,7 +2012,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
  description: `Hi @${sender.split('@')[0]}, Please select the menu here`,
  sections: [
                      {
-                      "title": `Xeon`,
+                      "title": `Dreaded`,
  rows: [
                           {
                               "title": "Script",
@@ -2443,7 +2443,7 @@ case 'triggered':
 case 'script':
 		case 'sc':
 		case 'sourcecode':
-		xeon.sendMessage(from, { text: "https://github.com/DGXeon/DogeBot", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
+		xeon.sendMessage(from, { text: "https://github.com/mokaya/botdreaded", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: false}, quoted: finv})
 		break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
@@ -4810,11 +4810,11 @@ xeon.sendMessage(from, vid, video, {quoted: mek})
 break
 case 'writelist':
   reply(`Example ${prefix}write tes
-  🌿 ${prefix}write Xeon
-  🌿 ${prefix}folioright Xeon
-  🌿 ${prefix}folioleft Xeon
-  🌿 ${prefix}writedown Xeon
-  🌿 ${prefix}writeleft Xeon`)
+  🌿 ${prefix}write Dreaded
+  🌿 ${prefix}folioright Dreaded
+  🌿 ${prefix}folioleft Dreaded
+  🌿 ${prefix}writedown Dreadex
+  🌿 ${prefix}writeleft Dreaded`)
   break
 case 'folioleft':
 if (!c) return reply('Where is the text bro??')
