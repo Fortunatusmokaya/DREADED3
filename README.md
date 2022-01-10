@@ -40,13 +40,13 @@ heroku/nodejs
 
 ## `CHANGE SESSION`
 
-[`Click Here`](https://github.com/DGXeon/DogeBot/blob/master/session.json#L1)
+[`Click Here`](https://github.com/Fortunatusmokaya/DREADEDBOT/blob/master/session.json#L1)
 
 # Installation
 ## Clone Repo & Installation dependencies
 ```bash
-🦄 git clone https://github.com/DGXeon/DogeBot.git
-🦄 cd DogeBot
+🦄 git clone https://github.com/Fortunatusmokaya/DREADEDBOT.git
+🦄 cd DREADEDBOT
 🦄 npm start
 ```
 ## For Termux
@@ -61,8 +61,8 @@ heroku/nodejs
 🦄 pkg install ffmpeg -y 
 🦄 pkg install wget
 🦄 pkg install imagemagick -y
-🦄 git clone https://github.com/DGXeon/DogeBot
-🦄 cd DogeBot
+🦄 git clone https://github.com/Fortunatusmokaya/DREADEDBOT
+🦄 cd DREADEDBOT
 🦄 ls
 🦄 rm -rf session.json
 🦄 npm install
@@ -78,11 +78,11 @@ My Personal Chat👇
 
 My Whatsapp Group👇
 <p align="center">
- <a href="https://chat.whatsapp.com/G3a3AQndqS5J45eD7zznXF"><img alt="WhatsApp Group" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=black"/></a>
+ <a href="https://chat.whatsapp.com/G3a3AQndqS5J45eDzznXF"><img alt="WhatsApp Group" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=black"/></a>
 </p>
 
-* [`My Youtube Channel`](https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A)
+* [`My Youtube Channel`](https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRy3A)
 
 # Thanks To
 * [`Baileys`](https://github.com/adiwajshing/Baileys)
-* [`Xeon`](https://github.com/DGXeon)
+* [`Fortunne`](https://github.com/Fortunatusmokaya)
